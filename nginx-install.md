@@ -73,7 +73,8 @@ stream {
 v100.stream.conf
 ~~~
 server {
-  listen 8123;
-  proxy_pass 100.93.40.101:$server_port;
+  listen port番号;
+  proxy_pass IPアドレス:$server_port;
 }
 ~~~
+

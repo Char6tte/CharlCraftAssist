@@ -3,7 +3,11 @@
 ## 初期設定
 
 ### パッケージアップデート
-> $ sudo apt update && sudo apt dist-upgrade -y
+> $ sudo apt update && sudo apt dist-upgrade -y  
+> $ sudo apt install qemu-guest-agent
+
+### qemu-guest-agent起動(Proxmoxから操作用アプリ)
+> $ sudo systemctl start qemu-guest-agent.service
 
 ### IPアドレス固定
 
@@ -26,7 +30,16 @@ network:
         addresses: [8.8.8.8,8.8.4.4]
 ~~~
 
-ens18:ネットワーク機器名。 ip a などで取得できる。  
-192.168.3.???/16 VMに設定したいIPを入力する。うちだと、192.168.3.2~192.168.3.255まで  
-addresses: DNSサーバーを設定する。8.8.8.8はGoogleDNS。
+#### ens18 :
+ネットワーク機器名。  
+$ ip a などで取得できる。  
 
+#### 192.168.3.???/16 :
+VMに設定したいIPを入力する。  
+うちだと、192.168.3.2~192.168.3.255まで  
+
+#### addresses:  
+DNSサーバーを設定する。8.8.8.8, 8.8.4.4はGoogleDNS。
+
+### ネットワーク設定再読み込み
+> $ sudo netplan apply
