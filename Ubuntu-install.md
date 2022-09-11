@@ -18,16 +18,17 @@
 ~~~
 network:
   version: 2
-  renderer: networkd
   ethernets:
     ens18:
       dhcp4: false
       dhcp6: false
-       addresses:
+      addresses:
         - 192.168.3.???/24
-      gateway4: [192.168.3.1]
+      routes:
+        - to: default
+          via: 192.168.3.1
       nameservers:
-        addresses: [8.8.8.8,8.8.4.4]
+        addresses: [8.8.8.8, 8.8.4.4, 1.1.1.1]
 ~~~
 
 #### ens18 :
