@@ -4,10 +4,10 @@
 ### ・ロビーサーバー
 
 #### Plugin：
-* WorldEdit
-* WorldGuard
-* CoreProtect
-* VSCCore
+* [WorldEdit](https://dev.bukkit.org/projects/worldedit)
+* [WorldGuard](https://dev.bukkit.org/projects/worldguard)
+* [CoreProtect](https://github.com/PlayPro/CoreProtect)
+* [VSCCore](https://github.com/Char6tte/VSCCore)
 * [Jecon](https://github.com/HimaJyun/Jecon)
 #### 独自要素？：  
 * ログインメッセージ改変
