@@ -1,8 +1,15 @@
 ## アイデア＆問題
 
+### Nginx Proxy Server
+VM ID： 1000
+
+### waterfall Server
+VM ID： 1201
+#### Plugin:
+* なし
 
 ### ・ロビーサーバー
-
+VM ID : 1201
 #### Plugin：
 * [WorldEdit](https://dev.bukkit.org/projects/worldedit)
 * [WorldGuard](https://dev.bukkit.org/projects/worldguard)
