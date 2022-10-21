@@ -9,7 +9,7 @@ DIR=/opt/paper/
 
 sudo apt update && sudo apt upgrade -y
 
-sudo apt install -y
+sudo apt install -y jq
 
 # Get the build number of the most recent build
 latest_build="$(curl -sSX GET "$api"/projects/"$name"/versions/"$version"/ -H 'accept: application/json' | jq ".builds | reverse | .[0]")"
