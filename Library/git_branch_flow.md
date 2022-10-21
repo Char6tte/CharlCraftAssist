@@ -1,6 +1,6 @@
 引用元：https://qiita.com/KosukeSone/items/514dd24828b485c69a05
 
-![img.png](images/img.png)
+![img.png](../images/img.png)
 
 ## master:
 プロダクトとしてリリースするためのブランチ。リリースしたらタグ付けする。
