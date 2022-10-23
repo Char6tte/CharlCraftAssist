@@ -1,25 +1,30 @@
-## アイデア＆問題
+# アイデア＆問題
 
-### Nginx Proxy Server
-VM ID： 1000
-
+## Nginx Proxy Server
 ### waterfall Server
 VM ID： 1000
 #### Plugin:
-* なし
+* [Fallback-Server](https://github.com/sasi2006166/Fallback-Server)
+* [HuskChat](https://github.com/WiIIiam278/HuskChat)
+* [LuckPerms](https://github.com/LuckPerms/LuckPerms)
+* [MapModCompanion](https://github.com/turikhay/MapModCompanion)
 
 ### ・ロビーサーバー
 VM ID : 1201
 #### Plugin：
+* [CoreProtect](https://github.com/PlayPro/CoreProtect)
+* [DecentHolograms](https://github.com/DecentSoftware-eu/DecentHolograms)
+* [DiscordSRV](https://github.com/DiscordSRV/DiscordSRV)
+* [HuskChat](https://github.com/WiIIiam278/HuskChat)
+* [Jecon](https://github.com/HimaJyun/Jecon)
+* [MapModCompanion](https://github.com/turikhay/MapModCompanion)
+* [LuckPerms](https://github.com/LuckPerms/LuckPerms)
+* [SimplePortals](https://github.com/XZot1K/SimplePortals)
+* [Vault](https://github.com/MilkBowl/Vault)
+* [VSCCore](https://github.com/Char6tte/VSCCore)
 * [WorldEdit](https://dev.bukkit.org/projects/worldedit)
 * [WorldGuard](https://dev.bukkit.org/projects/worldguard)
-* [CoreProtect](https://github.com/PlayPro/CoreProtect)
-* [VSCCore](https://github.com/Char6tte/VSCCore)
-* [Jecon](https://github.com/HimaJyun/Jecon)
-* [DecentHolograms](https://github.com/DecentSoftware-eu/DecentHolograms)
-* [LuckPerms](https://github.com/LuckPerms/LuckPerms)
-* [Vault](https://github.com/MilkBowl/Vault)
-* [DiscordSRV](https://github.com/DiscordSRV/DiscordSRV)
+
 #### 独自要素？：  
 * ログインメッセージ改変
 * 経済(支払いのみ)
