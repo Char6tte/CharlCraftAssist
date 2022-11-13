@@ -31,7 +31,7 @@ wget "$download_url" --content-disposition -O paper.jar -P "${DIR}"
 if [ -e "${DIR}eula.txt" ]; then
   echo "eula.txt exists."
   else
-    wget "https://" --content-disposition -O eula.txt -P ${DIR}
+    wget "https://raw.githubusercontent.com/Char6tte/V100Assist/main/Default/eula.txt" --content-disposition -O eula.txt -P ${DIR}
 fi
 
 #スクリーンが存在するのか、チェック。ある場合：javaプロセスが存在するか、確認し、一度落とす。
